@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3> 🗺️ <b> Desktop Portfolio</b> 🗺️</h3>
+  <h3> 🗺️ <b>Portfolio</b> 🗺️</h3>
 
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -28,7 +28,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Desktop version ] <a name="about-project"></a>
+# 📖 [Portfolio ] <a name="about-project"></a>
 
 > This is desktop version ofmy Portfolio website built with HTML, CSS, and Javascript technology. This website will keeps track of all the projects what I will worked on.
 
