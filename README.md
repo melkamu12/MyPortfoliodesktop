@@ -123,10 +123,12 @@ Example command:
 👤 **Author 1**
 
 - GitHub: [@melkamu12](https://github.com/melkamu12)
-  **Author 2**
+
+👤**Author 2**
 
 - GitHub: [@NgachaIan](https://github.com/NgachaIan)
-  **Author 3**
+
+👤**Author 3**
 
 - GitHub: [@ClarenceAtim](https://github.com/ClarenceAtim)
 
