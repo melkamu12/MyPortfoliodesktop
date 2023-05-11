@@ -120,10 +120,15 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Author 1**
 
 - GitHub: [@melkamu12](https://github.com/melkamu12)
-- LinkedIn: [melkamu-almawu](https://www.linkedin.com/in/melkamu-almawu/)
+  **Author 2**
+
+- GitHub: [@NgachaIan](https://github.com/NgachaIan)
+  **Author 3**
+
+- GitHub: [@ClarenceAtim](https://github.com/ClarenceAtim)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

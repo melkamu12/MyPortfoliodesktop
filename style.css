@@ -66,6 +66,7 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #344563;
+  font-family: "Poppins", sans-serif;
 }
 
 .connect {
@@ -82,6 +83,7 @@ body {
   background-color: #fff;
   padding: 20px;
   margin: 50px auto;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Work Section Project */
@@ -110,6 +112,7 @@ body {
   font-weight: 600;
   font-size: 15px;
   line-height: 16px;
+  font-family: "Poppins", sans-serif;
   color: hsl(218, 31%, 30%);
 }
 
@@ -126,6 +129,7 @@ body {
   width: 8px;
   height: 8px;
   margin: 5px 11px;
+  font-family: "Poppins", sans-serif;
 }
 
 .Content {
@@ -146,6 +150,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding-inline-start: 0;
+  font-family: "Poppins", sans-serif;
   gap: 8px;
   order: 0;
 }
@@ -164,6 +169,7 @@ body {
   background-color: #fff;
   border-top-right-radius: 80px;
   padding-left: 20px;
+  font-family: "Poppins", sans-serif;
 }
 
 .languages-elements li {
@@ -255,6 +261,7 @@ body {
 .languages-elements {
   display: flex;
   flex-direction: column;
+  font-family: "Poppins", sans-serif;
   gap: 10px;
   padding-inline-start: 0;
   padding: 12px 15px;
@@ -290,12 +297,14 @@ body {
   font-weight: 400;
   font-size: 17px;
   color: #344563;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Form styles */
 .contact-application {
   display: flex;
   align-items: center;
+  font-family: "Poppins", sans-serif;
   justify-content: center;
   height: 100vh;
   background: url(Asset/backgroundPG.png) no-repeat;
