@@ -158,78 +158,84 @@
       <!-- Repeat the above "projects" block for other projects -->
 
       <section id="about-me">
-        <h1 class="about-me">About Myself!</h1>
-        <p class="AboutContent">
-          Hello I'm a software developer! I can help you build a product,
-          feature or website Look through some of my work and experience! If you
-          like what you see and have a project you need coded, don't hestiate to
-          contact me.
-        </p>
-        <h2 class="connect">LET'S CONNECT</h2>
-        <ul class="social">
-          <li>
-            <a href=""><img src="Asset/vector1git.png" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="Asset/LinkidIn.png" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="Asset/angellist.png" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="Asset/Twitter.png" alt="" /></a>
-          </li>
-          <li>
-            <a href=""><img src="Asset/medium.png" alt="" /></a>
-          </li>
-        </ul>
-        <input type="button" class="btnResume" value="Get My Resume" />
-        <ul class="skill">
-          <li class="skill-title">
-            <h3 class="skill-heading">Languages</h3>
-            <img src="Asset/Union.png" alt="Close more View" />
-          </li>
-          <li>
-            <ul class="languages-elements">
-              <li>
-                <span>
-                  <img
-                    class="Language-logo"
-                    src="Asset/JS.png"
-                    alt="JavaScript"
-                    width="70px"
-                    height="70px"
-                  />
-                </span>
-                <p>JavaScript</p>
-              </li>
-              <li>
-                <span>
-                  <img class="Language-Logo" src="Asset/HTML5.png" alt="HTML" />
-                </span>
-                <p>HTML</p>
-              </li>
-              <li>
-                <span>
-                  <img class="Language-Logo" src="Asset/CSS3.png" alt="CSS" />
-                </span>
-                <p>CSS</p>
-              </li>
-            </ul>
-          </li>
-          <li class="skill-title Skill-border">
-            <h3 class="skill-heading">Frameworks</h3>
-            <span class="listIcon"
-              ><img src="Asset/icon.png" alt="List Skils" />
-            </span>
-          </li>
-          <li class="skill-title Skill-border">
-            <h3 class="skill-heading">Skills</h3>
-            <span class="listIcon"
-              ><img src="Asset/icon.png" alt="List Skils" />
-            </span>
-          </li>
-        </ul>
+        <div class="aboutcontents">
+          <h1 class="about-me">About Myself!</h1>
+          <p class="AboutContent">
+            Hello I'm a software developer! I can help you build a product,
+            feature or website Look through some of my work and experience! If
+            you like what you see and have a project you need coded, don't
+            hestiate to contact me.
+          </p>
+          <h2 class="connect">LET'S CONNECT</h2>
+          <ul class="social">
+            <li>
+              <a href=""><img src="Asset/vector1git.png" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="Asset/LinkidIn.png" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="Asset/angellist.png" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="Asset/Twitter.png" alt="" /></a>
+            </li>
+            <li>
+              <a href=""><img src="Asset/medium.png" alt="" /></a>
+            </li>
+          </ul>
+          <input type="button" class="btnResume" value="Get My Resume" />
+          <ul class="skill">
+            <li class="skill-title">
+              <h3 class="skill-heading">Languages</h3>
+              <img src="Asset/Union.png" alt="Close more View" />
+            </li>
+            <li>
+              <ul class="languages-elements">
+                <li>
+                  <span>
+                    <img
+                      class="Language-logo"
+                      src="Asset/JS.png"
+                      alt="JavaScript"
+                      width="70px"
+                      height="70px"
+                    />
+                  </span>
+                  <p>JavaScript</p>
+                </li>
+                <li>
+                  <span>
+                    <img
+                      class="Language-Logo"
+                      src="Asset/HTML5.png"
+                      alt="HTML"
+                    />
+                  </span>
+                  <p>HTML</p>
+                </li>
+                <li>
+                  <span>
+                    <img class="Language-Logo" src="Asset/CSS3.png" alt="CSS" />
+                  </span>
+                  <p>CSS</p>
+                </li>
+              </ul>
+            </li>
+            <li class="skill-title Skill-border">
+              <h3 class="skill-heading">Frameworks</h3>
+              <span class="listIcon"
+                ><img src="Asset/icon.png" alt="List Skils" />
+              </span>
+            </li>
+            <li class="skill-title Skill-border">
+              <h3 class="skill-heading">Skills</h3>
+              <span class="listIcon"
+                ><img src="Asset/icon.png" alt="List Skils" />
+              </span>
+            </li>
+          </ul>
+        </div>
         <section class="contact-application">
           <div class="form-wrapper">
             <h2 class="contact-me">Contact me</h2>
@@ -248,6 +254,7 @@
                   type="text"
                   id="user name"
                   name="name"
+                  class="formdata"
                   maxlength="30"
                   placeholder="Lorem Ipsum"
                   required
@@ -258,6 +265,7 @@
                   type="email"
                   id="email"
                   name="Email"
+                  class="formdata"
                   placeholder="loremipsum@gmail.com"
                   required
                 />

@@ -171,6 +171,10 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+.aboutcontents {
+  padding-left: 10px;
+}
+
 .languages-elements li {
   list-style-type: none;
   background-color: #f7f7f9;
@@ -303,6 +307,7 @@ body {
 /* Form styles  */
 .contact-application {
   display: flex;
+  margin-top: 100px;
   padding-left: 10px;
   padding-top: 50px;
   align-items: center;
@@ -409,4 +414,8 @@ textarea {
 
 .myinput::placeholder {
   color: hsla(217, 13%, 74%, 1);
+}
+
+.formdata::placeholder {
+  color: hsl(218, 54%, 20%);
 }
