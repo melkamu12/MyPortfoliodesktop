@@ -123,6 +123,7 @@ Example command:
 👤 **Author 1**
 
 - GitHub: [@melkamu12](https://github.com/melkamu12)
+- LinkedIn: [melkamu-almawu](https://www.linkedin.com/in/melkamu-almawu/)
 
 👤**Author 2**
 
