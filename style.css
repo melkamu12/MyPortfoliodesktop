@@ -168,7 +168,6 @@ body {
 #about-me {
   background-color: #fff;
   border-top-right-radius: 80px;
-  padding-left: 20px;
   font-family: "Poppins", sans-serif;
 }
 
@@ -304,10 +303,16 @@ body {
 /* Form styles  */
 .contact-application {
   display: flex;
+  padding-left: 100px;
   align-items: center;
   font-family: "Poppins", sans-serif;
   justify-content: center;
-  background: url(Asset/backgroundPG.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+  background-color: hsla(234, 100%, 69%, 1);
+  background-image: url("Asset/contact-bg-d.png");
+  border-radius: 100px 0 0 0;
 }
 
 .contact-me {
@@ -350,6 +355,13 @@ textarea {
   border: 1px solid #ccc;
   font-family: 'Poppins', sans-serif;
   border-radius: 4px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: hsl(218, 54%, 20%);
 }
 
 textarea {
@@ -375,11 +387,11 @@ textarea {
   cursor: pointer;
   font-size: 17px;
   font-weight: 600;
-  margin-left: 150px;
   margin-right: auto;
   display: block;
 }
 
 .btnGettouch:hover {
-  background-color: hsl(235, 30%, 93%);
+  background-color: hsla(234, 100%, 69%, 1);
+  color: hsl(0, 0%, 100%);
 }
