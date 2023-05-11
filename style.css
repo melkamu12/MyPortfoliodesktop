@@ -235,6 +235,7 @@ body {
 }
 
 /* Language */
+
 .Skill-border {
   border-bottom: 1px solid #dfe1e6;
 }
@@ -264,7 +265,7 @@ body {
   font-family: "Poppins", sans-serif;
   gap: 10px;
   padding-inline-start: 0;
-  padding: 12px 15px;
+  padding: 11px 14px;
 }
 
 .Language-Logo {
