@@ -303,16 +303,17 @@ body {
 /* Form styles  */
 .contact-application {
   display: flex;
-  padding-left: 100px;
+  padding-left: 10px;
+  padding-top: 50px;
   align-items: center;
   font-family: "Poppins", sans-serif;
   justify-content: center;
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center center;
+  background-position: right center;
   background-color: hsla(234, 100%, 69%, 1);
-  background-image: url("Asset/contact-bg-d.png");
-  border-radius: 100px 0 0 0;
+  background-image: url("Asset/contactmobile2x.png");
+  border-radius: 60px 0 0 0;
 }
 
 .contact-me {
@@ -352,9 +353,7 @@ input,
 textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
   font-family: 'Poppins', sans-serif;
-  border-radius: 4px;
   font-style: normal;
   font-weight: 400;
   font-size: 17px;
@@ -362,6 +361,8 @@ textarea {
   display: flex;
   align-items: center;
   color: hsl(218, 54%, 20%);
+  background: hsl(0, 0%, 100%);
+  border: 2px solid hsl(198, 16%, 84%);
 }
 
 textarea {
@@ -392,6 +393,20 @@ textarea {
 }
 
 .btnGettouch:hover {
-  background-color: hsla(234, 100%, 69%, 1);
+  background: hsla(234, 100%, 69%, 1);
   color: hsl(0, 0%, 100%);
+}
+
+.btnGettouch:active {
+  background: hsl(0, 0%, 100%);
+  color: linear-gradient(0deg, hsl(0, 0%, 100%), hsl(0, 0%, 100%)), linear-gradient(0deg, hsl(234, 100%, 75%), hsl(234, 100%, 75%));
+}
+
+.btnGettouch:disabled {
+  background-color: hsl(0, 0%, 80%);
+  color: hsl(218, 17%, 44%);
+}
+
+.myinput::placeholder {
+  color: hsla(217, 13%, 74%, 1);
 }
