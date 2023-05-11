@@ -1,6 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
+  font-family: "Poppins", sans-serif;
   box-sizing: border-box;
 }
 
@@ -63,6 +66,7 @@ body {
   line-height: 24px;
   font-weight: 400;
   color: #344563;
+  font-family: "Poppins", sans-serif;
 }
 
 .connect {
@@ -79,6 +83,7 @@ body {
   background-color: #fff;
   padding: 20px;
   margin: 50px auto;
+  font-family: "Poppins", sans-serif;
 }
 
 /* Work Section Project */
@@ -107,6 +112,7 @@ body {
   font-weight: 600;
   font-size: 15px;
   line-height: 16px;
+  font-family: "Poppins", sans-serif;
   color: hsl(218, 31%, 30%);
 }
 
@@ -123,6 +129,7 @@ body {
   width: 8px;
   height: 8px;
   margin: 5px 11px;
+  font-family: "Poppins", sans-serif;
 }
 
 .Content {
@@ -143,6 +150,7 @@ body {
   flex-direction: row;
   align-items: center;
   padding-inline-start: 0;
+  font-family: "Poppins", sans-serif;
   gap: 8px;
   order: 0;
 }
@@ -160,7 +168,11 @@ body {
 #about-me {
   background-color: #fff;
   border-top-right-radius: 80px;
-  padding-left: 20px;
+  font-family: "Poppins", sans-serif;
+}
+
+.aboutcontents {
+  padding-left: 10px;
 }
 
 .languages-elements li {
@@ -226,6 +238,7 @@ body {
 }
 
 /* Language */
+
 .Skill-border {
   border-bottom: 1px solid #dfe1e6;
 }
@@ -252,9 +265,10 @@ body {
 .languages-elements {
   display: flex;
   flex-direction: column;
+  font-family: "Poppins", sans-serif;
   gap: 10px;
   padding-inline-start: 0;
-  padding: 12px 15px;
+  padding: 11px 14px;
 }
 
 .Language-Logo {
@@ -287,15 +301,24 @@ body {
   font-weight: 400;
   font-size: 17px;
   color: #344563;
+  font-family: "Poppins", sans-serif;
 }
 
-/* Form styles */
+/* Form styles  */
 .contact-application {
   display: flex;
+  margin-top: 100px;
+  padding-left: 10px;
+  padding-top: 50px;
   align-items: center;
+  font-family: "Poppins", sans-serif;
   justify-content: center;
-  height: 100vh;
-  background: url(Asset/backgroundPG.png) no-repeat;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  background-color: hsla(234, 100%, 69%, 1);
+  background-image: url("Asset/contactmobile2x.png");
+  border-radius: 60px 0 0 0;
 }
 
 .contact-me {
@@ -305,8 +328,6 @@ body {
   font-weight: 700;
   font-size: 40px;
   padding: 23px;
-  display: flex;
-  align-items: center;
   color: hsl(0, 0%, 100%);
 }
 
@@ -315,55 +336,86 @@ body {
   padding: 20px;
 }
 
-h2.contact-me {
-  text-align: center;
-}
-
 .ContactDesctiption {
   margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: hsl(240, 100%, 96%);
 }
 
 form {
   display: flex;
   flex-direction: column;
+  font-family: 'Poppins', sans-serif;
 }
 
 .form-group {
   margin-bottom: 20px;
 }
 
-label {
-  font-weight: bold;
-}
-
 input,
 textarea {
   width: 100%;
   padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  color: hsl(218, 54%, 20%);
+  background: hsl(0, 0%, 100%);
+  border: 2px solid hsl(198, 16%, 84%);
 }
 
 textarea {
   height: 150px;
 }
 
+.btntouch {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.continer {
+  text-align: center;
+}
+
 .btnGettouch {
-  display: flex;
-  justify-content: center;
   padding: 10px 15px;
   border-radius: 8px;
   color: hsla(234, 100%, 69%, 1);
   background-color: hsl(0, 0%, 100%);
-  outline: none;
   border: 1px solid #396df2;
   width: fit-content;
   cursor: pointer;
   font-size: 17px;
   font-weight: 600;
-  margin-left: 5px;
+  margin-right: auto;
+  display: block;
 }
 
 .btnGettouch:hover {
-  background-color: hsl(235, 30%, 93%);
+  background: hsla(234, 100%, 69%, 1);
+  color: hsl(0, 0%, 100%);
+}
+
+.btnGettouch:active {
+  background: hsl(0, 0%, 100%);
+  color: linear-gradient(0deg, hsl(0, 0%, 100%), hsl(0, 0%, 100%)), linear-gradient(0deg, hsl(234, 100%, 75%), hsl(234, 100%, 75%));
+}
+
+.btnGettouch:disabled {
+  background-color: hsl(0, 0%, 80%);
+  color: hsl(218, 17%, 44%);
+}
+
+.myinput::placeholder {
+  color: hsla(217, 13%, 74%, 1);
+}
+
+.formdata::placeholder {
+  color: hsl(218, 54%, 20%);
 }

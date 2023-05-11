@@ -29,8 +29,7 @@
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Portfolio ] <a name="about-project"></a>
-
-> This is desktop version of my Portfolio website built with HTML and CSS technology. This website will keeps track of all the projects what I will worked on and forms any person who wants to contact me.
+This is desktop version ofmy Portfolio website built with HTML and CSS. This website will keeps track of all the projects what I will worked on, about me and contact form to contact with me.
 
 **[Portfilio]** portfilio project
 
@@ -120,10 +119,18 @@ Example command:
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Author**
+👤 **Author 1**
 
 - GitHub: [@melkamu12](https://github.com/melkamu12)
 - LinkedIn: [melkamu-almawu](https://www.linkedin.com/in/melkamu-almawu/)
+
+👤**Author 2**
+
+- GitHub: [@NgachaIan](https://github.com/NgachaIan)
+
+👤**Author 3**
+
+- GitHub: [@ClarenceAtim](https://github.com/ClarenceAtim)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
