@@ -2,7 +2,7 @@
 
 <div align="center">
 
-  <h3> 🗺️ <b> Desktop Portfolio</b> 🗺️</h3>
+  <h3> 🗺️ <b>Portfolio</b> 🗺️</h3>
 
 </div>
 <!-- TABLE OF CONTENTS -->
@@ -28,9 +28,8 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio Desktop version ] <a name="about-project"></a>
-
-> This is desktop version ofmy Portfolio website built with HTML, CSS, and Javascript technology. This website will keeps track of all the projects what I will worked on.
+# 📖 [Portfolio ] <a name="about-project"></a>
+This is desktop version ofmy Portfolio website built with HTML and CSS. This website will keeps track of all the projects what I will worked on, about me and contact form to contact with me.
 
 **[Portfilio]** portfilio project
 
@@ -79,7 +78,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone git@github.com:melkamu12/MobilePortfolioFinish.git
+  git clone git@github.com:melkamu12/Portfolio-PairProgramming.git
 ```
 
 ### Install
@@ -145,7 +144,7 @@ Example command:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](git@github.com:melkamu12/MyPortfoliodesktop.git).
+Feel free to check the [issues page](git@github.com:melkamu12/Portfolio-PairProgramming.git).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
